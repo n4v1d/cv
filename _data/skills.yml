@@ -1,0 +1,22 @@
+- name: Android
+  level: 70%
+- name: Java
+  level: 70%
+- name: Kotlin
+  level: 70%
+- name: Design Patterns
+  level: 80%
+- name: Reactive Programming
+  level: 40%
+- name: SOLID
+  level: 60%
+- name: Di concept
+  level: 30%
+- name: MVC/MVVM
+  level: 50%
+- name: Firebase Platform
+  level: 60%
+- name: Git VCS
+  level: 70%
+- name: REST APIs
+  level: 99%
