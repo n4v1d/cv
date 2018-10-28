@@ -1,0 +1,45 @@
+about: False
+education: True # set to False if you want education in main section instead of in sidebar
+
+# Profile information
+name: فرهاد بیگی‌راد
+tagline: توسعه‌دهنده اپلیکیشن‌‌های موبایل
+avatar: profile.jpg
+
+# Sidebar links
+email: beigirad@gmail.com
+phone:
+website: beigirad.ir
+linkedin: beigirad
+github: beigirad
+gitlab:
+telegram: beigirad
+skype: beigirad
+bitbucket:
+twitter:
+stack-overflow: 2389923/beigirad
+codewars:
+
+languages:
+  - idiom: فارسی
+    level: زبان مادری
+  - idiom: انگلیسی
+    level: متوسط
+
+interests:
+  - item: Climbing
+    link:
+
+  - item: Snowboarding
+    link:
+
+  - item: Cooking
+    link:
+
+career-profile:
+    summary: |
+      فرهاد بیگی‌راد هستم. 
+      برنامه نویسی رو از دوران متوسطه آغاز کردم و از سال ۹۴ تا کنون برروی برنامه نویسی اندروید متمرکز شدم.
+
+      همیشه ترجیح دادم تنها در یک حوزه فعالیت کنم و در اون حرفی برای گفتن داشته باشم.
+      یادگرفتن چیزهای جدید منو به وجد میاره و همواره بدنبال یادگیریم.
