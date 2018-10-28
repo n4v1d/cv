@@ -164,7 +164,7 @@ p {
     .section-title {
         text-transform: uppercase;
         font-size: 20px;
-        font-weight: 500;
+        font-weight: 600;
         color: darken($theme-color, 15%);
         position: relative;
         margin-top: 0;
@@ -172,11 +172,18 @@ p {
     }
     .section {
         margin-bottom: 60px;
+
+        .content {
+            padding-right: 10px;
+        }
     }
 
     .experiences-section, .educations-section {
         .item {
             margin-bottom: 30px;
+            .mata, .details{
+                font-size: 12px;
+            }
         }
     }
     .upper-row {
