@@ -29,6 +29,7 @@ p {
 }
 
 .wrapper {
+    direction: rtl;
     background:$theme-color;
     max-width: 1000px;
     margin: 0 auto;
@@ -109,6 +110,7 @@ p {
     }
     .education-container {
         .item {
+            padding-right: 10px;
             margin-bottom: 15px;
             &:last-child {
                 margin-bottom: 0;
@@ -134,6 +136,7 @@ p {
 
     .languages-list {
         margin-bottom: 0;
+        padding-right: 10px;
         li {
             margin-bottom: 10px;
             &:last-child {
@@ -144,6 +147,7 @@ p {
 
     .interests-list {
         margin-bottom: 0;
+        padding-right: 10px;
         li {
             margin-bottom: 10px;
             &:last-child {
@@ -189,7 +193,7 @@ p {
     }
     .time {
         position: absolute;
-        right: 0;
+        left: 0;
         top: 0;
         color: $text-grey;
     }
