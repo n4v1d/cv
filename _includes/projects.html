@@ -20,7 +20,7 @@
   <div class="item content">
 
       <span class="project-title">
-        <a href="{{ project.link.bazaar }}">{{ project.title }}</a>
+        <a href="{%if project.link.detail%} {{ project.link.detail }} {%else%}{{ project.link.bazaar }}{%endif%}">{{ project.title }}</a>
       </span>
 
       {% if project.description %}
