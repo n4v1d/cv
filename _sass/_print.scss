@@ -20,7 +20,7 @@
         position: static;
         float: right;
         width: 40%;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
         -webkit-print-color-adjust: exact; 
     }
 
@@ -31,10 +31,20 @@
     footer {
        display: none;
     }
+    .project-tagline {
+        display: none;
+    }
 
-    .skillset .level-bar-inner {
-       background-color: black !important;
-       -webkit-print-color-adjust: exact; 
+    .skillset  {
+        -webkit-print-color-adjust: exact; 
+        .level-bar {
+            width: 60%;
+            background-color: grey !important;
+        }
+        .level-bar-inner{
+            width: 60%;
+            background-color: black !important;
+        }
     }
 
 }
