@@ -189,7 +189,7 @@ p {
     .upper-row {
         position: relative;
         overflow: hidden;
-        margin-bottom: 2px;
+        margin-bottom: 4px;
     }
     .job-title, .degree {
         color: $text-color;
@@ -205,8 +205,12 @@ p {
         color: $text-grey;
     }
     .company, .university {
-        margin-bottom: 10px;
+        margin-bottom: 4px;
         color: $text-grey;
+    }
+
+    .company .name {
+        font-weight: 700;
     }
 
     .project-title {

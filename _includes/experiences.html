@@ -19,12 +19,14 @@
         <div class="time">{{ experience.time }}</div>
       </div><!--//upper-row-->
       <div class="company">
+      <span class="name">
         {% if experience.company-link %}
           <a href="{{ experience.company-link }}">{{ experience.company }}</a>
         {% else %}
           {{ experience.company }}
         {% endif %}
-
+      </span>
+        - {{experience.location}}
       </div>
 
     </div><!--//meta-->
